@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+float calculaarea(float base, float altura){
+    float area;
+    
+    area=(base*altura/2);
+    return area;
+    
+}
+
+
+int main()
+{
+    float base;
+    float altura;
+    float area;
+    
+   cout<<"digite a base\n";
+   cin>>base;
+   cout<<"digite a altura:\n";
+   cin>>altura;
+   
+   area=calculaarea(base,altura);
+   
+   cout<<"a area do triangulo é:"<<area<<endl;
+   
+
+    return 0;
+}
